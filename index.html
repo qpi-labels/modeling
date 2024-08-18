@@ -2,12 +2,11 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <title>Quarter-Pi LABELS</title>
+    <title>QPI</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@600&display=swap" rel="stylesheet">
     <link rel="shortcut icon" type="image/x-icon" href="logo.ico">
-    
     <style>
         body {
             background-color: black;
@@ -24,30 +23,27 @@
         img {
             display: block;
             margin: 0 auto;
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+    <style>
+        html, body {
+            margin: 0;
+            height: 100%;
+        }
+
+        img {
             width: 100%;
             height: 100%;
             object-fit: cover; /* 이미지를 화면에 꽉 채우되, 비율 유지 */
         }
-
-    
     </style>
-
-    <script>
-        document.addEventListener('contextmenu', function(e) {
-            e.preventDefault();
-        });
-
-        document.addEventListener('selectstart', function(e) {
-            e.preventDefault();
-        });
-    </script>
 </head>
-
 <body>
-
-
-<img src="main.png" alt="main" width="1000" height="300">
+    <img src="main.png" alt="Fullscreen Image">
+    <p style="font-size: xx-large; margin-bottom: 0">상상을 현실로</p>
+    <p style="margin-top: 0">야매로 블렌더 만지기</p>
     
-
 </body>
 </html>
